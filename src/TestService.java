@@ -27,7 +27,7 @@ public class TestService {
 
     public static void printWordsUnique() {
         Set<String> uniqueWords = new HashSet<>(words);
-        System.out.println(words.size() - uniqueWords.size());
+        System.out.println(words.size() - uniqueWords.size()) ;
     }
 }
 

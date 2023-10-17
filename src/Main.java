@@ -6,7 +6,7 @@ public class Main {
         Set<Integer> set = new LinkedHashSet<>(nums);
         List<Integer> numbers = new ArrayList<>(set);
         TestService.printEven(nums);
-        System.out.println();
+        System.out.println("===");
         TestService.printEvenNoRepeat(numbers);
         System.out.println();
         TestService.printWords();
